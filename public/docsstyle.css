@@ -86,6 +86,41 @@ p:not(.menu-label) {
   padding-bottom: 1rem;
 }
 
+table {
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+th {
+  margin: 0 auto;
+  transition: transform .2s;
+  border-spacing: 1;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+td {
+  margin: 0 auto;
+  transition: transform .2s;
+  border-spacing: 1;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+tr {
+  margin: 0 auto;
+  transition: transform .2s;
+}
+/*
+tbody > tr:hover {
+  transform: scale(1.05)
+}*/
+
 .hide {
   display: none;
 }

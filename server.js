@@ -10,7 +10,7 @@ app.use('/docs', express.static('public'));
 let sidebar = {}
 
 app.get("/", (req, res) => {
-    res.render('main')
+    res.redirect('/notes/ITGS/Unit-1')
 })
 
 let categories = fs.readdirSync('./notes/');

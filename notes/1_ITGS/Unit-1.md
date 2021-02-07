@@ -1,17 +1,19 @@
 # Hardware 
 
 ## Input Devices
-- **Input devices** are items of hardware that allow entry of
-information into the computer
-- List of Input devices:
+- **Input devices** are items of hardware that allow entry of information into the computer
+- ### List of Input devices:
     - **Keyboards**
-        - **Layouts:**
-            - QWERTY (standard)
-            - DVORAK (said to increase typing speed)
-        - **Types:**
-            - **Multimedia keyboards:**  *standard QWERTY* keyboards with *additional hotkeys* (function keys, windows key, etc)
-            - **Concept keyboards:** *each key is programmed to perform a custom function.* They are useful in situations where the user needs to make a quick selection of choices from a pre-set options.
-            - **Soft keyboard** (also called software keyboard, on screen keyboard, or virtual keyboard): is represented by a series of buttons drawn on a monitor or screen. The user selects options using a pointing device like a mouse, or a touch screen. Soft keyboards are useful because they are more accessible than regular keyboards (most used in smartphones)
+    <button id="kbtoggle"></button>
+    <div id="kbcontent" class="hide">   
+      - **Layouts:**
+        - QWERTY (standard)
+        - DVORAK (said to increase typing speed)
+      - **Types:**
+        - **Multimedia keyboards:**  *standard QWERTY* keyboards with *additional hotkeys* (function keys, windows key, etc)
+        - **Concept keyboards:** *each key is programmed to perform a custom function.* They are useful in situations where the user needs to make a quick selection of choices from a pre-set options.
+        - **Soft keyboard** (also called software keyboard, on screen keyboard, or virtual keyboard): is represented by a series of buttons drawn on a monitor or screen. The user selects options using a pointing device like a mouse, or a touch screen. Soft keyboards are useful because they are more accessible than regular keyboards (most used in smartphones)
+    </div>
     - **Mouse:** the standard pointing device for most desktops. Consists of 2 buttons and a scroll wheel
     - **Touch pad (also known as track pads):** used on laptops as there is not enough space for a mouse.
         - **Multitouch touch pads** allow more complex actions to be performed such as 2 finger swiping (people normally call them *gestures*)
@@ -28,9 +30,9 @@ information into the computer
     - Difference between LCD and OLED: LEDs use independent-illuminated pixels, while LCD screens use background light to display the image. In other words, on an OLED screen, each pixel has its own “background light,” and thus it renders its light and color independently.
 - **Speakers:** An output device for sound
 - **Printers:** An output device which is used to create hard copies of documents and files.
-| |Inkject|Laser|
-|-|-|-|
-|Advantages|Good for photo printing|higher quality printouts|
+|            | Inkject                 | Laser                    |
+| ---------- | ----------------------- | ------------------------ |
+| Advantages | Good for photo printing | higher quality printouts |
 - **3D printers** converts a CAD (Computer aided design) into a physical model using additive technologies.
 
 ## Processor Technology

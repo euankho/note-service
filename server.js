@@ -14,29 +14,34 @@ app.get("/", (req, res) => {
 })
 
 let categories = fs.readdirSync('./notes/');
+categories.sort((a, b) => {
+  parseInt(a.split('_')[0]) - parseInt(b.split('_')[0])
+})
+
 categories.forEach(async (category) => {
-  if (category === '.DS_Store') return
+  if (category === '.DS_Store') return 
   fs.readdir(`./notes/${category}/`, (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
       //check file
       if (!file.endsWith(".md")) return;
       //set sidebar category
-      let cat = category.split('_')[1]
+      let cat = category.split('_')
+      cat.shift()
+      cat = cat.join('-')
       if (!sidebar[cat]) sidebar[cat] = []
       
       //get data
       let md = fs.readFileSync(`./notes/${category}/${file}`);
       md = marked(md.toString())
-      let filename = file.split("_")[1] ? file.split("_")[1].replace('.md', '') : file.replace('.md', '')
+      let filename = file.replace('.md', '')
       //add sidebar
       sidebar[cat].push(filename)
-      
+
       //add route
       app.get(`/notes/${cat.toLowerCase()}/${filename}`, (req, res) => {
         res.render('note', {md: md, active: filename, sidebar: sidebar});
       });
-
     });
   });
 })

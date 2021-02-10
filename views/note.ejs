@@ -57,15 +57,15 @@
     <div class="splitter">
         <div class="sidenav">
             <aside class="menu">
-                <% Object.keys(sidebar).forEach(category=> { %>
+                <% console.log(sidebar); Object.keys(sidebar).forEach(category => { %>
                     <p class="menu-label">
-                        <%=category.replace('-', ' ')%>
+                        <%= category.replace(/_/g, ' ') %>
                     </p>
                     <ul class="menu-list" id="<%=category%>">
                         <% sidebar[category].forEach(thing=> { %>
                             <li>
                                 <a href="/notes/<%= category%>/<%= thing %>">
-                                    <%= thing.replace('-', ' ') %>
+                                    <%= thing.replace(/-/g, ' ') %>
                                 </a>
                             </li>
                             <% }) %>

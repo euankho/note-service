@@ -25,6 +25,11 @@ body > div.splitter > div.container > p > img {
   width: 30%;
 }
 
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+    background-color: #363636;
+    cursor: default;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

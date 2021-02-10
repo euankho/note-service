@@ -1,16 +1,16 @@
 # Chemical Bonding and Structure
 
 ## Comparison chart of ionic and covalent bonding
-|Ionic Bonding|Covalent Bonding|
-|-|-|
-|Metals and Non metals|Non metal and Non metal|
-|Atoms gain or lose electrons|Atoms share electrons|
-|Electrostatic attraction between oppositely charged ions|Electrostatic attraction between a shared paired of electrons|
-|Lattice structures|Consists of molecules|
-|Higher m.p. and b.p.|Lower m.p and b.p.|
-|Not volatile|May be volatile|
-|Soluble in water|Insoluble in water|
-|Conduct electricity when molten due to free moving ions|Does not conduct electricity because there are no ions present|
+| Ionic Bonding                                            | Covalent Bonding                                               |
+| -------------------------------------------------------- | -------------------------------------------------------------- |
+| Metals and Non metals                                    | Non metal and Non metal                                        |
+| Atoms gain or lose electrons                             | Atoms share electrons                                          |
+| Electrostatic attraction between oppositely charged ions | Electrostatic attraction between a shared paired of electrons  |
+| Lattice structures                                       | Consists of molecules                                          |
+| Higher m.p. and b.p.                                     | Lower m.p and b.p.                                             |
+| Not volatile                                             | May be volatile                                                |
+| Soluble in water                                         | Insoluble in water                                             |
+| Conduct electricity when molten due to free moving ions  | Does not conduct electricity because there are no ions present |
 
 ## Ionic bonding and structure
 - Ionic compounds are formed when electrons are transferred from one atom (metal) to another atom (non-metal) to form positive and negative ions creating electrostatic attraction
@@ -28,16 +28,16 @@
   - solubility in water
     - most ionic substances are soluble but some are not
     
-### Common ionic compound names
-|Name|Formula|
-|-|-|
-|ammonium|NH<sub>4</sub><sup>+</sup>|
-|hydroxide|OH<sup>-</sup>|
-|nitrate|NO<sub>3</sub><sup>-</sup>|
-|hydrogencarbonate|HCO<sub>3</sub><sup>-</sup>|
-|carbonate|CO<sub>3</sub><sup>2-</sup>|
-|sulfate|SO<sub>4</sub><sup>2-</sup>|
-|phosphate|PO<sub>4</sub><sup>3-</sup>|
+### Common polyatomic ions / compound ions
+| Name              | Formula                     |
+| ----------------- | --------------------------- |
+| ammonium          | NH<sub>4</sub><sup>+</sup>  |
+| hydroxide         | OH<sup>-</sup>              |
+| nitrate           | NO<sub>3</sub><sup>-</sup>  |
+| hydrogencarbonate | HCO<sub>3</sub><sup>-</sup> |
+| carbonate         | CO<sub>3</sub><sup>2-</sup> |
+| sulfate           | SO<sub>4</sub><sup>2-</sup> |
+| phosphate         | PO<sub>4</sub><sup>3-</sup> |
 
 ### Lattice Structures
 - **Electrostatic attraction:** positive charges and negative charges attract each other

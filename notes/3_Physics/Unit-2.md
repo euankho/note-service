@@ -15,16 +15,19 @@
 <hr>
 
 ### Non accelerated motion (d. s, t)
-$\ d = s \cdot t$
+$$\ d = s \cdot t$$
 - d = distance (m)
 - s = speed (m/s)
 - t = time (s)
 
 ### Accelerated motion (Equations of motion for uniform acceleration)
-$\ a = \frac{v-u}{t}$
-$\ s = u \cdot t + \frac{1}{2} \cdot a \cdot t^2$
-$\ v^2 = u^2 + 2as$
-$\ s = \frac{t(v + u)}{2}$
+$$\ a = \frac{v-u}{t}$$
+
+$$\ s = u \cdot t + \frac{1}{2} \cdot a \cdot t^2$$
+
+$$\ v^2 = u^2 + 2as$$
+
+$$\ s = \frac{t(v + u)}{2}$$
  
 - s = displacement (m)
 - u = initial velocity (m/s)
@@ -33,7 +36,7 @@ $\ s = \frac{t(v + u)}{2}$
 - t = time (s)
 
 ### Average speed (v)
-$\ v = \frac{total\ distance\ travelled}{total\ time}$
+$$\ v = \frac{total\ distance\ travelled}{total\ time}$$
 
 ### Graphs
 - Displacement (m) / time (s) graph
@@ -54,11 +57,11 @@ $\ v = \frac{total\ distance\ travelled}{total\ time}$
 - Free body diagram
 
 ## Friction
-μ = $\frac{f}{N}$
+$$μ = \frac{f}{N}$$
 * μ = coefficient of friction
 * f = friction force
 * N = normal force
 
 
-$\\f=μ*N$
+$$f=μ*N$$
 

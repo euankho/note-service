@@ -7,11 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://some-random-api.ml/style.css" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script"
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     <link href="/prism.css" rel="stylesheet">
     <link href="/docsstyle.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/655020761010012170/790171846968213554/icon.png?width=1008&height=1008">
+    <link rel="icon" type="image/png"
+        href="https://media.discordapp.net/attachments/655020761010012170/790171846968213554/icon.png?width=1008&height=1008">
     <title>Protivity &bull; Note Service</title>
 </head>
+
+<body class="has-navbar-fixed-top">
+    <div class="header">
+        <%- include("parts/navbar") %>
+    </div>
+
+    <div class="splitter">
+        <div class="sidenav">
+            <aside class="menu">
+                <% Object.keys(sidebar).forEach(category=> { %>
+                    <p class="menu-label">
+                        <%= category.replace(/_/g, ' ' ) %>
+                    </p>
+                    <ul class="menu-list" id="<%=category%>">
+                        <% sidebar[category].forEach(thing=> { %>
+                            <li>
+                                <a href="/notes/<%= category%>/<%= thing %>">
+                                    <%= thing.replace(/-/g, ' ' ) %>
+                                </a>
+                            </li>
+                            <% }) %>
+                    </ul>
+                    <% }) %>
+
+            </aside>
+        </div>
+
+        <div class="container">
+            <%- md %>
+
+
+
+        </div>
+    </div>
+    <script src="/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/index.js"></script>
+</body>
 <style>
     html {
         max-height: 100vh;
@@ -40,52 +82,17 @@
     }
 
     .number {
-        background-color: rgba(0,0,0,0);
+        background-color: rgba(0, 0, 0, 0);
         margin-right: 0;
         padding: 0;
         display: inline-flex;
         font-size: inherit;
         height: inherit;
     }
+
+    mjx-container[jax="CHTML"][display="true"] {
+        display: initial;
+    }
 </style>
-
-<body class="has-navbar-fixed-top">
-    <div class="header">
-        <%- include("parts/navbar") %>
-    </div>
-
-    <div class="splitter">
-        <div class="sidenav">
-            <aside class="menu">
-                <% console.log(sidebar); Object.keys(sidebar).forEach(category => { %>
-                    <p class="menu-label">
-                        <%= category.replace(/_/g, ' ') %>
-                    </p>
-                    <ul class="menu-list" id="<%=category%>">
-                        <% sidebar[category].forEach(thing=> { %>
-                            <li>
-                                <a href="/notes/<%= category%>/<%= thing %>">
-                                    <%= thing.replace(/-/g, ' ') %>
-                                </a>
-                            </li>
-                            <% }) %>
-                    </ul>
-                    <% }) %>
-
-            </aside>
-        </div>
-
-        <div class="container">
-            <%- md %>
-
-
-
-        </div>
-    </div>
-    <script src="/prism.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="/index.js"></script>
-</body>
-
 
 </html>

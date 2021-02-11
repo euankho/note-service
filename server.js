@@ -39,7 +39,7 @@ categories.forEach(async (category) => {
 
       //add route
       app.get(`/notes/${cat.toLowerCase()}/${filename}`, (req, res) => {
-        res.render('note', { md: md, active: filename, sidebar: sidebar });
+        res.render('note', { md: md, active: cat + '-' + filename, sidebar: sidebar });
       });
 
       app.get(`/notes/${cat.toLowerCase()}/${filename}.pdf`, async (req, res) => {

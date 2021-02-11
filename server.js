@@ -3,13 +3,11 @@ const express = require('express');
 const app = express();
 const fs = require('fs')
 const marked = require('marked')
-const pdf = require('html-pdf');
 
 app.set('view engine', 'ejs')
 app.use('/', express.static('public'));
 app.use('/docs', express.static('public'));
 let sidebar = {}
-let pdftemplate = (fs.readFileSync(`./views/pdf.html`)).toString()
 app.get("/", (req, res) => {
   res.redirect('/notes/ITGS/Unit-1')
 })
@@ -52,11 +50,7 @@ categories.forEach(async (category) => {
         res.send(pdf.content)*/
         
 
-        pdf.create(pdftemplate.replace("insertMDHERE", md)).toBuffer(function(err, buffer){
-          if (err) return res.send("Something went wrong converting the file to pdf")
-          res.contentType("application/pdf");
-          res.send(buffer)
-        });
+        res.render('pdf', { md: md });
       });
     });
   });

@@ -44,17 +44,56 @@
         </div>
 
         <div class="container">
-            <%- md %>
+            <div id="md">
+                <%- md %>
+            </div>
 
             <br>
             <hr>
-            <a class="button is-info" onclick="openwindow()">Download Note</a>
+            <a class="button is-info" onclick="savenote()">Download Note</a>
             <p><strong>Note:</strong> This feature is not fully supported and notes may look weird in pdf form</p>
         </div>
     </div>
     <script src="/prism.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+
+    <script>
+        function savenote() {
+            var doc = new jsPDF('p', 'pt', 'a4');
+
+
+            //Html source 
+            var source = document.getElementById('md').innerHTML;
+
+            var margins = {
+                top: 10,
+                bottom: 10,
+                left: 10,
+                width: 595
+            };
+
+            doc.fromHTML(
+                source, 
+                margins.left,
+                margins.top, {
+                'width': margins.width,
+                'elementHandlers': specialElementHandlers
+            },
+
+                function (dispose) {
+                    doc.save('Note.pdf');
+                });
+        }
+
+        var specialElementHandlers = {
+            '#kbcontent': function (element, renderer) {
+                return true;
+            }
+        };
+    </script>
 </body>
 <style>
     html {

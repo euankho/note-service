@@ -276,6 +276,7 @@
     .page-end {
         page-break-before: always;
     }
+
     button {
         width: 0;
         height: 0;
@@ -284,13 +285,56 @@
 
 <body>
 
-
-    insertMDHERE
-
+    <div id="content">
+        <%- md %>
     </div>
     <script src="/prism.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+    <script>
+
+        setTimeout(() => {
+            var doc = new jsPDF('p', 'pt', 'a4');
+            //A4 - 595x842 pts
+            //https://www.gnu.org/software/gv/manual/html_node/Paper-Keywords-and-paper-size-in-points.html
+
+
+            //Html source 
+            var source = document.getElementById('content').innerHTML;
+
+            var margins = {
+                top: 10,
+                bottom: 10,
+                left: 10,
+                width: 595
+            };
+
+            doc.fromHTML(
+                source, // HTML string or DOM elem ref.
+                margins.left,
+                margins.top, {
+                'width': margins.width,
+                'elementHandlers': specialElementHandlers
+            },
+
+                function (dispose) {
+                    // dispose: object with X, Y of the last line add to the PDF 
+                    //          this allow the insertion of new lines after html
+                    doc.save('Note.pdf');
+                }, margins);
+            // Save the PDF
+        }, 2000)
+        var specialElementHandlers = {
+            // element with id of "bypass" - jQuery style selector
+            '.hide': function (element, renderer) {
+                // true = "handled elsewhere, bypass text extraction"
+                return true;
+            }
+        };
+    </script>
 </body>
 
 </html>

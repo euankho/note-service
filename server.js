@@ -3,15 +3,15 @@ const express = require('express');
 const app = express();
 const fs = require('fs')
 const marked = require('marked')
-const { mdToPdf } = require('md-to-pdf');
+const pdf = require('html-pdf');
 
 app.set('view engine', 'ejs')
 app.use('/', express.static('public'));
 app.use('/docs', express.static('public'));
 let sidebar = {}
-
+let pdftemplate = (fs.readFileSync(`./views/pdf.html`)).toString()
 app.get("/", (req, res) => {
-    res.redirect('/notes/ITGS/Unit-1')
+  res.redirect('/notes/ITGS/Unit-1')
 })
 
 let categories = fs.readdirSync('./notes/');
@@ -20,7 +20,7 @@ categories.sort((a, b) => {
 })
 
 categories.forEach(async (category) => {
-  if (category === '.DS_Store') return 
+  if (category === '.DS_Store') return
   fs.readdir(`./notes/${category}/`, (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
@@ -31,7 +31,7 @@ categories.forEach(async (category) => {
       cat.shift()
       cat = cat.join('-')
       if (!sidebar[cat]) sidebar[cat] = []
-      
+
       //get data
       let md = fs.readFileSync(`./notes/${category}/${file}`);
       md = marked(md.toString())
@@ -41,15 +41,22 @@ categories.forEach(async (category) => {
 
       //add route
       app.get(`/notes/${cat.toLowerCase()}/${filename}`, (req, res) => {
-        res.render('note', {md: md, active: filename, sidebar: sidebar});
+        res.render('note', { md: md, active: filename, sidebar: sidebar });
       });
 
       app.get(`/notes/${cat.toLowerCase()}/${filename}.pdf`, async (req, res) => {
-        const pdf = await mdToPdf({ path: `./notes/${category}/${file}` }).catch(console.error);
+        /*const pdf = await mdToPdf({ path: `./notes/${category}/${file}` }).catch(console.error);
         if (!pdf) return res.send('Something went wrong converting the file to pdf')
         res.contentType("application/pdf");
         console.log()
-        res.send(pdf.content)
+        res.send(pdf.content)*/
+        
+
+        pdf.create(pdftemplate.replace("insertMDHERE", md)).toBuffer(function(err, buffer){
+          if (err) return res.send("Something went wrong converting the file to pdf")
+          res.contentType("application/pdf");
+          res.send(buffer)
+        });
       });
     });
   });

@@ -111,7 +111,7 @@ the diagram.
 - A: area of the blade
 - v: velocity of the air
 
-- assumes that all kenitic energy from the air can be used 
+- assumes that all kinetic energy from the air can be used 
 - While a long blade (large A or r) will give the best energy yields, increasing the radius of the blade also increases its mass and this means that the rotors will not rotate at low wind speeds. 
 
 - Ideal places where wind farms are placed
@@ -150,7 +150,7 @@ $$P = \frac{m}{t}g\Delta h = (\frac{V}{t}\rho)g\Delta h$$
 - t: time
 - m: mass
 - V: volume
-- $\rho$: density of the water
+- $$\rho$$: density of the water
 
 $$m = \rho * V$$
 $$m = \frac{m}{V} * V$$

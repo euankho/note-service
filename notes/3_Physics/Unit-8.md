@@ -47,6 +47,7 @@ the diagram.
 
 
 ## Primary sources used in power stations
+- **Baseload station:** A station which run 24 hours a day, 7 days a week converting energy all the time. However, the demand that consumers make for energy is variable and cannot always be predicted. From time to time the demand exceeds the output of the baseload stations.
 ### Fossil fuels
 - Advantages:
   - Modern fossil-fuel power stations can be very large and can convert significant amounts of power.
@@ -57,6 +58,7 @@ the diagram.
   - It makes sense to locate power stations as close as possible to places where fossil fuels are recovered; however, this is not always possible and, in some locations, large-scale transportation of the fuels is still required. A need for transport leads to an overall reduction in the efficiency of the process because energy has to be expended in moving the fuels to the power stations.
 
 ### Nuclear fuel
+- A baseload station
 - A particularly common variety of the thermal reactors is the pressurized water reactor (PWR). Uranium-235 is the nuclide used in these reactor
 ![](https://school.is-inside.me/20tKixlY.png)
 - While about 99% of uranium ore is U-238, U-235 is needed in a fission process.
@@ -93,3 +95,84 @@ the diagram.
     - enclosing the reactor vessel and its concrete shield in a larger shell of concrete
   - leave the structure alone for up to a century to allow the activity of the structure to drop to a level similar to that of the local background
 
+### Wind Generators
+- A baseload station
+- The rotor is rotated by the wind and, through a gearbox, this turns an electrical generator. The electrical energy is fed either to a storage  system (but this increases the expense) or to the electrical grid.
+- There are two principle types:
+  - horizontal-axis
+    - can be steered into the wind
+  - veritcal-axis
+    - does not have to be steered into the wind and therefore its generator can be placed off-axis.
+![](https://school.is-inside.me/JBVMTnlW.png)
+
+#### Maximum theoretical value of the available power
+- $\frac{1}{2}\rho\pi r^2v^2$
+- $\rho$: density of the air
+- A: area of the blade
+- v: velocity of the air
+
+- assumes that all kenitic energy from the air can be used 
+- While a long blade (large A or r) will give the best energy yields, increasing the radius of the blade also increases its mass and this means that the rotors will not rotate at low wind speeds. 
+
+- Ideal places where wind farms are placed
+  - off-shore 
+    - wind speeds are higher than over land because the shore tends to be more smooth
+  - on top of a hill 
+    - due to the shape of the land
+
+| Advantages                                                   | Disadvantages                                      |
+| ------------------------------------------------------------ | -------------------------------------------------- |
+| No energy costs                                              | Variable output on a daily or seasonal basis       |
+| No chemical pollution                                        | Site availability can be limited in some countries |
+| Capital costs can be high but reduce with economies of scale | Noise pollution                                    |
+| Easy to maintain on land; not so easy off-shore              | Visual pollution                                   |
+|                                                              | Ecological impact                                  |
+
+### Pumped storage
+- Not a baseload station, output can be increased or decreased
+- There are multiple ways which water can be used as a primary energy source:
+  - pumped storage plants (potential)
+  - hydroelectric plants (potential)
+  - tidal barrage (potential)
+  - tidal flow systems (kinetic)
+  - wave energy (kinetic)
+- All the sources above use one of two methods:
+  - The GPE (gravitational potential energy) of water held at a level above a reservoir is converted to electrical energy as the water is allowed to fall to the lower level
+  - The kinetic energy of moving water is transferred to electrical energy as the water flows or as waves move
+- A pumped storage system (Figure 10) involves the use of two water reservoirs
+  - These reservoirs are connected by pipes
+  - The ammount of water that can flow through the pipes are dependant on the demand of electricity. if high, more water flows and when low, less water flows.
+  - They can go from 0 to 100 output in a few seconds
+  - when demand is low, they pump the water back up
+
+#### Maximum theoretical rate of power from water
+$P = \frac{m}{t}g\Delta h = (\frac{V}{t}\rho)g\Delta h$
+- t: time
+- m: mass
+- V: volume
+- $\rho$: density of the water
+
+$m = \rho * V$
+$m = \frac{m}{V} * V$
+$m = m$
+
+### Solar energy
+#### Solar heating panels
+![](https://school.is-inside.me/IQO2FtWQ.png)
+- solar heating panel contains a pipe, embedded in a black plate, through which a glycol–water mixture is circulated by a pump (glycol has a low freezing point, necessary in cold countries)
+#### Solar photovoltaic panels
+- The photovoltaic materials in the panel convert electromagnetic radiation from the Sun into electrical energy
+- The **photovoltaic cell** consists of a single crystal of semiconductor
+that has been doped so that one face is p-type semiconductor and the opposite face is n-type.
+  - electrons in n-type, positive “holes”
+  - an absence of electrons – in p-type
+- Advantages:
+  - low maintenance cost
+  - no fuel cost
+
+#### Math of Solar energy
+$P = \eta IA$
+- P: Power (W)
+- $\eta$: fraction of the energy arriving that is converted into internal energy
+- I: itensity of radiation (from the sun per square meter) (W/m<sup>2</sup>)
+- A: area of the solar panel (m<sup>2</sup>)

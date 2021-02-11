@@ -160,19 +160,27 @@ $m = m$
 #### Solar heating panels
 ![](https://school.is-inside.me/IQO2FtWQ.png)
 - solar heating panel contains a pipe, embedded in a black plate, through which a glycol–water mixture is circulated by a pump (glycol has a low freezing point, necessary in cold countries)
+- when sunlight, infrared radiation, falls on the blackplate, it heats ups
+- the heated gycol is heated through the pipes to the boiler
+- through the internal energy, we can run the boiler and 
+
 #### Solar photovoltaic panels
-- The photovoltaic materials in the panel convert electromagnetic radiation from the Sun into electrical energy
 - The **photovoltaic cell** consists of a single crystal of semiconductor
 that has been doped so that one face is p-type semiconductor and the opposite face is n-type.
   - electrons in n-type, positive “holes”
   - an absence of electrons – in p-type
+- The photovoltaic materials in the panel convert electromagnetic radiation from the Sun into electrical energy
+- they are used in both series and parralel
 - Advantages:
   - low maintenance cost
   - no fuel cost
+- disadvantage
+  - high initial cost
+  - relatively low efficiency
 
 #### Math of Solar energy
 $P = \eta IA$
 - P: Power (W)
-- $\eta$: fraction of the energy arriving that is converted into internal energy
+- $\eta$: efficiency or fraction of the energy arriving that is converted into internal energy
 - I: itensity of radiation (from the sun per square meter) (W/m<sup>2</sup>)
 - A: area of the solar panel (m<sup>2</sup>)

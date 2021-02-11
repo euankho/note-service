@@ -106,8 +106,8 @@ the diagram.
 ![](https://school.is-inside.me/JBVMTnlW.png)
 
 #### Maximum theoretical value of the available power
-- $\frac{1}{2}\rho\pi r^2v^2$
-- $\rho$: density of the air
+- $$\frac{1}{2}\rho\pi r^2v^2$$
+- $$\rho$$: density of the air
 - A: area of the blade
 - v: velocity of the air
 
@@ -146,15 +146,15 @@ the diagram.
   - when demand is low, they pump the water back up
 
 #### Maximum theoretical rate of power from water
-$P = \frac{m}{t}g\Delta h = (\frac{V}{t}\rho)g\Delta h$
+$$P = \frac{m}{t}g\Delta h = (\frac{V}{t}\rho)g\Delta h$$
 - t: time
 - m: mass
 - V: volume
 - $\rho$: density of the water
 
-$m = \rho * V$
-$m = \frac{m}{V} * V$
-$m = m$
+$$m = \rho * V$$
+$$m = \frac{m}{V} * V$$
+$$m = m$$
 
 ### Solar energy
 #### Solar heating panels
@@ -180,8 +180,8 @@ that has been doped so that one face is p-type semiconductor and the opposite fa
   - relatively low efficiency
 
 #### Math of Solar energy
-$P = \eta IA$
+$$P = \eta IA$$
 - P: Power (W)
-- $\eta$: efficiency or fraction of the energy arriving that is converted into internal energy
+- $$\eta$$: efficiency or fraction of the energy arriving that is converted into internal energy
 - I: itensity of radiation (from the sun per square meter) (W/m<sup>2</sup>)
 - A: area of the solar panel (m<sup>2</sup>)

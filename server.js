@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const fs = require('fs')
 const marked = require('marked')
+const { mdToPdf } = require('md-to-pdf');
 
 app.set('view engine', 'ejs')
 app.use('/', express.static('public'));
@@ -41,6 +42,14 @@ categories.forEach(async (category) => {
       //add route
       app.get(`/notes/${cat.toLowerCase()}/${filename}`, (req, res) => {
         res.render('note', {md: md, active: filename, sidebar: sidebar});
+      });
+
+      app.get(`/notes/${cat.toLowerCase()}/${filename}.pdf`, async (req, res) => {
+        const pdf = await mdToPdf({ path: `./notes/${category}/${file}` }).catch(console.error);
+        if (!pdf) return res.send('Something went wrong converting the file to pdf')
+        res.contentType("application/pdf");
+        console.log()
+        res.send(pdf.content)
       });
     });
   });

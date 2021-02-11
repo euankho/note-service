@@ -17,3 +17,7 @@ kbtoggle.addEventListener("click", function () {
     kbcontent.style.display = (kbcontent.dataset.toggled ^= 1) ? "block" : "none";
     kbcontent.innerHTML = marked(kbcontent.innerHTML)
 });
+
+function openwindow () {
+    window.open(window.location.href + ".pdf")
+}

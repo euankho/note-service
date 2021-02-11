@@ -162,7 +162,8 @@ $m = m$
 - solar heating panel contains a pipe, embedded in a black plate, through which a glycol–water mixture is circulated by a pump (glycol has a low freezing point, necessary in cold countries)
 - when sunlight, infrared radiation, falls on the blackplate, it heats ups
 - the heated gycol is heated through the pipes to the boiler
-- through the internal energy, we can run the boiler and 
+- through the internal energy, the boiler runs and heats up water
+- A solar heating cell absorbs radiant energy and converts it to the internal energy of the working fluid.  
 
 #### Solar photovoltaic panels
 - The **photovoltaic cell** consists of a single crystal of semiconductor

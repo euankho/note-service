@@ -120,7 +120,8 @@
   - triple bond
   - double bond
   - single bond  
-- The bond is stronger and short with more bonds because more shared of electrons create stronger forces of attraction.
+- The bond is stronger and short with more bonds because more shared of electrons create stronger electrostatic forces of attraction between the nuclei and the shared paired of electrons.
+- **Octet Rule:** The tendency to form a stable arragement of 8 electrons in the outer shell
 
 ### Covalent characther
 - Predicting an covalent compound
@@ -144,7 +145,8 @@
   - A vector can be drawn to show the electronegativity. 
     - The vector must be from the slightly positive (+) to the slightly negative (-) side
 
-## Electron deficient
+### Octet rule exception
+#### Electron deficient
 - Has less than 8 electrons in the valance shell
 - still stable
 - ie. BeCl<sub>2</sub> and BF<sub>3</sub>
@@ -168,6 +170,162 @@
 - A set of two or more Lewis Structures that collectively describe the bonding of a single polyatomic molecule.
 - More than one way to draw a molecule's lewis structure
 ![Example of CO3](https://school.is-inside.me/LajkW3Ap.png)
+
+## Molecular Polarity
+- The polarity of a molecule depends on:
+  - The polar bonds the molecule contains
+  - The shape of the molecule
+- If the bonds are equally polar and arranged symmetrically, then they cancel each other out are non polar
+
+## VSEPR Theory
+- Valance Shell Electron Pair Repulsion
+- in a small molecule, the pairs of valence electrons are arranged as far apart from each other as possible in terms of avaliable space (They are all electron - negatively charge). 
+- The pair of electrons may be either non bonding pair (lone pair) or boding pairs (pairs of electreon involved in a covalent bond)
+- Any bond = bonding pair
+- Non bonding pair is a lone pair. They do not have any bonds
+- Maximum Replusion
+  - Where we have maximum replusion is between 2 lone pairs. Because their electron cloud is l;arger.
+  - The second strongest is lone and bonding pair
+  - The weakest is between 2 bonding pairs
+
+## Electron domains
+- Double and triple bonded electrons are orientated together and behave as a single unit known as an electron domain
+- Lone pairs also count as electron domains
+
+## Electron and Molecular Geometry
+- **Electron Geometry:** The general shape of the molecule based on the amount of electron domains (this includes both bonding pairs and lone pairs)
+- **Molecular Geometry:** The shape of the molecule based on only the amount of bonding pair
+
+| Number of electron pairs      | Electron Geometry    | Molecular Geomtry    | Bond Angles      | Example         |
+| ----------------------------- | -------------------- | -------------------- | ---------------- | --------------- |
+| 2 bonding pairs               | Linear               | Linear               | 180°             | CO<sub>2</sub>  |
+| 3 bonding pairs               | Triogonal planar     | Triogonal Planar     | 120°             | BF<sub>3</sub>  |
+| 2 bonding pairs, 1 lone pair  | Triogonal planar     | Bent                 | <120°            | SO<sub>2</sub>  |
+| 4 bonding pairs               | Tetrahedral          | Tetrahedral          | 109.5°           | CH<sub>4</sub>  |
+| 3 bonding pairs, 1 lone pair  | Tetrahedral          | Triogonal pyramidal  | 107.3° or 107.4° | NH<sub>3</sub>  |
+| 2 bonding pairs, 2 lone pair  | Tetrahedal           | Bent                 | 104.5°           | H<sub>2</sub>O  |
+| 5 bonding pairs               | Trigonal Bipyramidal | Trigonal Bipyramidal | 90°, 120°        | PCl<sub>5</sub> |
+| 4 bonding pairs, 1 lone pair  | Trigonal Bipyramidal | See Saw              | <90°, <120°      | SF<sub>4</sub>  |
+| 3 bonding pairs, 2 lone pair  | Trigonal Bipyramidal | T-Shape              | <90°             | CF<sub>3</sub>  |
+| 2 bonding pairs, 3 lone pair  | Trigonal Bipyramidal | Linear               | 180°             | XeF<sub>2</sub> |
+| 6 bonding pairs               | Octahedral           | Octahedral           | 90°              | SF<sub>6</sub>  |
+| 5 bonding pairs, 1 lone pair  | Octahedral           | Square pyramidal     | <90°             | Br<sub>5</sub>  |
+| 4 bonding pairs, 2 lone pairs | Octahedral           | Square planar        | 90°              | XeF<sub>4</sub> |
+
+## Allotropes
+- Allotropes are different forms of an element in the same physical state
+- Allotropes can vary in physical and chemical properties
+- Examples of carbon allotropes:
+  - carbon 
+  - diamond
+  - graphene
+  - fullerene
+
+- carbon and silicon from giant covalent/network covalent structures
+- graphite, diamond, and graphene are examples of covalent network solid
+- quartz is a covalent network solid formed from silicon dioxide
+- covalent network solids are on in which the atoms are held together by covalent bonds in a giant 3d lattice structure
+- covalent network solids
+  - they have high melting points
+  - they are bad conductors of elecricity (except graphene and graphite)
+
+
+### Graphite
+- Covalently bonded
+- Connected to 3 other carbon atoms
+- has trigonal planar geometry (120°)
+- contains layers of hexagonal rings
+- Contains one non-bonded electron, delocalized electron per atom meaning it can conduct electricity
+- the layers have weak intermolecular forces (called London forces)
+- the layers are weak thus it allows them to slide
+- is used as a lubricant or pencil lead
+- most stable allotrope, very high melting point
+
+### Diamond
+- Covalently bonded 
+- Connected to 4 other Carbon atoms 
+- Has a tetrahedral structure (109.5°)
+- Hardest known substance
+- All electrons are bonded meaning it does not conduct electricity
+- Conducts heat better than metals
+- Very high melting point
+- Brittle
+
+### Graphene
+- Covalently bonded 
+- Connected to 3 other carbon atoms
+- has triogonal planar geometry (120°)
+- 2 dimensional single layer 
+- Contains one non-bonded electron, delocalized electron per atom meaning it can conduct electricity
+- Excellent heat conductor — better than diamond
+- Very high melting point
+- thinnest material to exist yet stronger than steel (one atom thick)
+- almost completely transparent
+
+### Fullerene
+- Covalently bonded
+- Connected to 3 other carbon atoms
+- consists of 12 pentagons and 20 hexagons (109.5°-120°)
+- can conduct electricity 
+- bad heat conductor
+- low melting point
+
+### Silicon Dioxide
+- Silicon is covalently bonded to four others 
+- has a tetrahedral arrangement (109.5°)
+- known as silica or quartz
+- forms a **giant covalent structure** 
+- Each Si atom is covalently bonded to 4 O atoms and each O atom to 2 Si atoms.
+- The formula SiO<sub>2</sub> is the ratio of atoms within the giant molecule
+- Strong structure
+- insoluble in water
+- does not conduct electricity
+- does not conduct heat
+- high melting point
+
+
+
+## Intermolecular forces
+- Hydrogen bonding
+- London dispression forces (Van deer wall forces)
+- permanent dipole-dipole moment 
+
+### London forces
+- result of induced dipole dipole interactions
+- larger the atom / atomic radius / more electrons
+
+### Permanent dipole dipole interactions
+- a result of electronegativity in the electron cloud towards 1 atom.
+- only happens to polar molecules
+
+### Hydrogen bonding
+- involves hydrogen bonding with either F O or N as they are the most electronegative
+- requirements:
+  - molecule needs hydrogen
+  - there must be one of the most electronegative atoms (F O or N)
+  - the electronegative atom atom needs to have at least one lone pair 
+- it is responsible for ice floating on water
+
+### Hydride
+- molecules made between hydrogen and another atom
+![](https://school.is-inside.me/NokeV6Yi.png)
+Hydrogenbonds make the boiling point higher :amandapog:
+
+![](https://school.is-inside.me/R3Cbjmpv.png)
+
+### Overall forces
+London < permanent dipole dipole moment < hydrogen bonding
+Weakest ------------------------------------------> Strongest
+
+![](https://school.is-inside.me/C9Ur3jQO.png)
+
+
+# Cis and trans isomerism
+- isomer: same molecular formula but different structure
+- You cannot rotate double bond molecules (aklenes)
+- You can rotate alkanes
+![](https://school.is-inside.me/gKao6bh1.png)
+
 
 
 

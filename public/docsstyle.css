@@ -61,7 +61,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.125;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 h2 {
@@ -69,23 +69,26 @@ h2 {
   font-weight: 600;
   line-height: 1.125;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.125;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.125;
+  margin-bottom: 0.5rem;
 }
 
 p:not(.menu-label) {
-  padding-bottom: 1rem;
+  padding-bottom: 5px;
 }
 
 table {

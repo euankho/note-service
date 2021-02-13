@@ -1,50 +1,97 @@
 # Chemistry 4 - Chemical Bonding and Structure
 
 ## Comparison chart of ionic and covalent bonding
-| Ionic Bonding                                            | Covalent Bonding                                               |
-| -------------------------------------------------------- | -------------------------------------------------------------- |
-| Metals and Non metals                                    | Non metal and Non metal                                        |
-| Atoms gain or lose electrons                             | Atoms share electrons                                          |
-| Electrostatic attraction between oppositely charged ions | Electrostatic attraction between a shared paired of electrons  |
-| Lattice structures                                       | Consists of molecules                                          |
-| Higher m.p. and b.p.                                     | Lower m.p and b.p.                                             |
-| Not volatile                                             | May be volatile                                                |
-| Soluble in water                                         | Insoluble in water                                             |
-| Conduct electricity when molten due to free moving ions  | Does not conduct electricity because there are no ions present |
+|Ionic Bonding|Covalent Bonding|
+|-|-|
+|Metals and Non metals|Non metal and Non metal|
+|Atoms gain or lose electrons|Atoms share electrons|
+|Electrostatic attraction between oppositely charged ions|Electrostatic attraction between a shared paired of electrons|
+|Lattice structures|Consists of molecules|
+|Higher m.p. and b.p.|Lower m.p and b.p.|
+|Not volatile|May be volatile|
+|Soluble in water|Insoluble in water|
+|Conduct electricity when molten due to free moving ions|Does not conduct electricity because there are no ions present|
 
 ## Ionic bonding and structure
 - Ionic compounds are formed when electrons are transferred from one atom (metal) to another atom (non-metal) to form positive and negative ions creating electrostatic attraction
+- Charges **MUST BE** written as number+ such as "2+"
+- Oxidation states are written in +number ie "+2"
 - **Positive Ions (Cations)** formed when atoms (usually of metallic elements) lose electron(s). 
 - **Negative Ions (Anions)** formed when atoms (usually of non-metallic elements) gain electron(s).
 - Ionic bounded compounds are often reffered to salts
 - These bonds are stronger than covalent bond
 - All elements in main groups (1,2,3, 15, 16, 17) are trying to achieve a stable electronic configuration (noble gas). Thus they lose or gain electrons to create ion which is an **isoelectronic** (same number electrons) as the nearest noble gases
-- **Physical properties of ionic compounds**
-  - very strong (because oppositely charged) 
-  - high bp and mp
-  - solid at room temperature
-  - not volatile
-  - conducts electricity either in molten or water
-    - the ions seperate in water (non polar solubles)
-    - not free moving electron, it is free moving ions
-  - solubility in water
-    - most ionic substances are soluble but some are not
+  - Group 1, 2, and 3 will form Cations
+  - Group 15, 16, and 17 will form Anions
 
-| Group | 1   | 2   | 13  | 15  | 16  | 17  |
-| ----- | --- | --- | --- | --- | --- | --- |
-| Ion   | 1+  | 2+  | 3+  | 3-  | 2-  | 1-  |
+|Group|1|2|13|15|16|17|
+|-|-|-|-|-|-|-|
+|Ion|1+|2+|3+|3-|2-|1-|
+
 **Tip:** rather than memorizing, think of how many electrons need to be removed or added to create the nearest noble gas strucutre
 
-### Common ionic compound names
-| Name              | Formula                     |
-| ----------------- | --------------------------- |
-| ammonium          | NH<sub>4</sub><sup>+</sup>  |
-| hydroxide         | OH<sup>-</sup>              |
-| nitrate           | NO<sub>3</sub><sup>-</sup>  |
-| hydrogencarbonate | HCO<sub>3</sub><sup>-</sup> |
-| carbonate         | CO<sub>3</sub><sup>2-</sup> |
-| sulfate           | SO<sub>4</sub><sup>2-</sup> |
-| phosphate         | PO<sub>4</sub><sup>3-</sup> |
+### Transition elements
+- They can form more than one stable ion
+- The ions can be distinguished by color (flame test)
+
+### Ionic character 
+- Predicting an ionic character 
+  - Position on the periodic table
+  - Electronegativity
+- Position on the Periodic table
+  - Metals on the left side of the zigzag line tend to lose electrons
+  - Non-metals on the right side of the zigzag tend to gain electrons
+  - The highest tendency to form ionic compounds will be between elements on the bottom left and the top right
+- Electronegativity
+  - Differences greater than 1.8 are considered ionic
+
+## Lattice structure
+- Every ion is surronded by the opposite charge (only in solid state)
+- Ionic compounds have a three-dimensional crystalline structures known as **ionic lattices**
+- The strength of force between ions is known as **lattice enthalpy** 
+  - The smaller the ion and the greater the charge, the higher the lattice enthalpy
+  - The smaller the ion allows stronger forces between the electrons and the nuclei
+  - The greater the charge will create larger attraction forces
+- The formula unit is the smallest particle of an ionic compound
+  - Formula unit is the lowest whole number ratio of ions in an ionic compound
+
+## Physical properties of ionic compounds
+- very strong (because oppositely charged) 
+- high bp and mp
+- solid at room temperature
+- low volatility (how easy a substance vaporizes)
+  - because ionic compounds have strong electrostatic bonds
+- conducts electricity either in molten or water
+  - the ions seperate in molten state or in water 
+  - Solid ions compounds do not conduct electricity as there is no free moving ions
+  - not free moving electron, it is free moving ions
+- solubility
+  - **solubility:** the ease in which a solid dissolves in a liquid to become a solution. 
+  - solubility trends are based on the similarity of the chemical nature of the solute and the solvent
+  - Polar compounds dissolve in polar molecules
+  - Nonpolar compounds dissolve in nonpolar molecules
+  - most ionic substances are soluble in water but some are not
+- Brittleness
+  - **brittleness:** how easy a crystal will shatter when force is applied
+  - Ionic compounds are brittle because ions of like charge can be next to each other in the lattice structure and the repulsive charges causes the structure to split easily
+
+### Naming ionic compounds
+- -**ide** means that the element is mono-atomic ion
+- -**ite** means that there is oxygen. Either 2 or 3 oxygen
+- -**ate** means that there is oxygen. Either 3 or 4 oxygen
+
+### Common polyatomic ions
+- **Polyatomic ion:** An ion created by multiple elements which are covalently bonded but has a net charge
+|Name|Formula|
+|-|-|
+|ammonium|NH<sub>4</sub><sup>+</sup>|
+|hydroxide|OH<sup>-</sup>|
+|nitrite|NO<sub>2</sub><sup>-</sup>|
+|nitrate|NO<sub>3</sub><sup>-</sup>|
+|hydrogencarbonate|HCO<sub>3</sub><sup>-</sup>|
+|carbonate|CO<sub>3</sub><sup>2-</sup>|
+|sulfate|SO<sub>4</sub><sup>2-</sup>|
+|phosphate|PO<sub>4</sub><sup>3-</sup>|
 
 ### Lattice Structures
 - **Electrostatic attraction:** positive charges and negative charges attract each other

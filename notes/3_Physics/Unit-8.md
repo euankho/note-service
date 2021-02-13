@@ -48,6 +48,7 @@ the diagram.
 
 ## Primary sources used in power stations
 - **Baseload station:** A station which run 24 hours a day, 7 days a week converting energy all the time. However, the demand that consumers make for energy is variable and cannot always be predicted. From time to time the demand exceeds the output of the baseload stations.
+  
 ### Fossil fuels
 - Advantages:
   - Modern fossil-fuel power stations can be very large and can convert significant amounts of power.

@@ -1,16 +1,16 @@
 # Chemistry 4 - Chemical Bonding and Structure
 
 ## Comparison chart of ionic and covalent bonding
-|Ionic Bonding|Covalent Bonding|
-|-|-|
-|Metals and Non metals|Non metal and Non metal|
-|Atoms gain or lose electrons|Atoms share electrons|
-|Electrostatic attraction between oppositely charged ions|Electrostatic attraction between a shared paired of electrons|
-|Lattice structures|Consists of molecules|
-|Higher m.p. and b.p.|Lower m.p and b.p.|
-|Not volatile|May be volatile|
-|Soluble in water|Insoluble in water|
-|Conduct electricity when molten due to free moving ions|Does not conduct electricity because there are no ions present|
+| Ionic Bonding                                            | Covalent Bonding                                               |
+| -------------------------------------------------------- | -------------------------------------------------------------- |
+| Metals and Non metals                                    | Non metal and Non metal                                        |
+| Atoms gain or lose electrons                             | Atoms share electrons                                          |
+| Electrostatic attraction between oppositely charged ions | Electrostatic attraction between a shared paired of electrons  |
+| Lattice structures                                       | Consists of molecules                                          |
+| Higher m.p. and b.p.                                     | Lower m.p and b.p.                                             |
+| Not volatile                                             | May be volatile                                                |
+| Soluble in water                                         | Insoluble in water                                             |
+| Conduct electricity when molten due to free moving ions  | Does not conduct electricity because there are no ions present |
 
 ## Ionic bonding and structure
 - Ionic compounds are formed when electrons are transferred from one atom (metal) to another atom (non-metal) to form positive and negative ions creating electrostatic attraction
@@ -24,9 +24,9 @@
   - Group 1, 2, and 3 will form Cations
   - Group 15, 16, and 17 will form Anions
 
-|Group|1|2|13|15|16|17|
-|-|-|-|-|-|-|-|
-|Ion|1+|2+|3+|3-|2-|1-|
+| Group | 1   | 2   | 13  | 15  | 16  | 17  |
+| ----- | --- | --- | --- | --- | --- | --- |
+| Ion   | 1+  | 2+  | 3+  | 3-  | 2-  | 1-  |
 
 **Tip:** rather than memorizing, think of how many electrons need to be removed or added to create the nearest noble gas strucutre
 
@@ -80,18 +80,30 @@
 - -**ite** means that there is oxygen. Either 2 or 3 oxygen
 - -**ate** means that there is oxygen. Either 3 or 4 oxygen
 
+## Electronegativity
+- The measure of the ability/tendecy of an atom to pull the shared paired of electron to itself.
+- The pauline scale (chart in data booklet showing electronegative values)
+  - Going down a peroid, the lower the electronegativity value is
+  - Going right a group, the higher the electronegativity value is
+- Polarity:
+  - Ie. F<sub>2</sub> is two flourine atoms meaning that the bond stretgh is the same. Thus this molecule is non polar 
+- electronegativity **increase across the period** and decreases **down the group**
+- Highly electronegative atoms: N Cl O F
+- The bond is considered ionic if the **difference** of electronegativity is **1.8+**
+  
+
 ### Common polyatomic ions
 - **Polyatomic ion:** An ion created by multiple elements which are covalently bonded but has a net charge
-|Name|Formula|
-|-|-|
-|ammonium|NH<sub>4</sub><sup>+</sup>|
-|hydroxide|OH<sup>-</sup>|
-|nitrite|NO<sub>2</sub><sup>-</sup>|
-|nitrate|NO<sub>3</sub><sup>-</sup>|
-|hydrogencarbonate|HCO<sub>3</sub><sup>-</sup>|
-|carbonate|CO<sub>3</sub><sup>2-</sup>|
-|sulfate|SO<sub>4</sub><sup>2-</sup>|
-|phosphate|PO<sub>4</sub><sup>3-</sup>|
+| Name              | Formula                     |
+| ----------------- | --------------------------- |
+| ammonium          | NH<sub>4</sub><sup>+</sup>  |
+| hydroxide         | OH<sup>-</sup>              |
+| nitrite           | NO<sub>2</sub><sup>-</sup>  |
+| nitrate           | NO<sub>3</sub><sup>-</sup>  |
+| hydrogencarbonate | HCO<sub>3</sub><sup>-</sup> |
+| carbonate         | CO<sub>3</sub><sup>2-</sup> |
+| sulfate           | SO<sub>4</sub><sup>2-</sup> |
+| phosphate         | PO<sub>4</sub><sup>3-</sup> |
 
 ### Lattice Structures
 - **Electrostatic attraction:** positive charges and negative charges attract each other
@@ -107,20 +119,31 @@
 - **Length of bond (lowest to highest):**
   - triple bond
   - double bond
-  - single bond
+  - single bond  
+- The bond is stronger and short with more bonds because more shared of electrons create stronger forces of attraction.
+
+### Covalent characther
+- Predicting an covalent compound
+  - Position on the periodic table
+    - Covalent compounds tend to form between 2 non metal 
+    - The closer the elements the more covalent it is
+  - electronegative differences
+    - Electronegative difference must be lower than 1.8
+    - the closer the electronegativity is to 0, the more covalent the molecule is
+- Covalent compounds which consists of the same element is called **diatomic molecules**
 - **Coordinate (dative) covalent bond:** A type of covalent bond where *both electrons come from the same atom.*
 
-## Electronegativity
-- The measure of the ability/tendecy of an atom to pull the shared paired of electron to itself.
-- The pauline scale (chart in data booklet showing electronegative values)
-  - Going down a peroid, the lower the electronegativity value is
-  - Going right a group, the higher the electronegativity value is
-- Polarity:
-  - Ie. F<sub>2</sub> is two flourine atoms meaning that the bond stretgh is the same. Thus this molecule is non polar 
-- electronegativity **increase across the period** and decreases **down the group**
-- Highly electronegative atoms: N Cl O F
-- The bond is considered ionic if the **difference** of electronegativity is **1.7+**
-  
+### Bond polarity
+- A bond is polar if the bond is unsymmetrical in terms of electron distribution
+- **Dipole:** the bond has an area of positive charge and an area of negative charge ($\delta$)
+- The pauling scale predicts the polarity by using electronegativity differences
+  - Values between 0.0 - 0.4 are considered non-polar covalent
+  - Values between 0.4 - 1.8 are considered to be polar covalent.
+  - Values greater than 1.8 are considered ionic
+  - The greater the difference, the more polar the molecule
+  - A vector can be drawn to show the electronegativity. 
+    - The vector must be from the slightly positive (+) to the slightly negative (-) side
+
 ## Electron deficient
 - Has less than 8 electrons in the valance shell
 - still stable

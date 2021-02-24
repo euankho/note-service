@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100%;
   display: inline-flex;
+  overflow: hidden;
 }
 
 .sidenav {
@@ -15,6 +16,7 @@
   overflow-y: scroll;
   scrollbar-color: #bbcced #373737;
   scrollbar-width: 10px;
+  transition: 1s;
 }
 
 .sidenav ul li {
@@ -55,6 +57,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   margin: auto 0;
   margin-top: 15px;
   flex-grow: 0;
+  transition: 1s;
 }
 
 h1 {
@@ -167,4 +170,38 @@ em {
 
 ::selection {
   background:rgba(108, 160, 245,0.5);
+}
+
+#navtoggle {
+  display: none;
+  position: sticky;
+  bottom: 25px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0a8bfe;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 600px) {
+  .sidenav {
+    width: 0px;
+    padding: 0px;
+    top: 0px;
+  }
+  .sidenav.is-active {
+    width: 100vw;
+    padding: 15px;
+    top: 0px;
+  }
+  .container.is-active {
+    width: 0px;
+    padding: 0px;
+    height: 0px;
+  }
+  #navtoggle {
+    display: block;
+
+  }
 }

@@ -2,7 +2,6 @@
   width: 100vw;
   height: 100%;
   display: inline-flex;
-  overflow: hidden;
 }
 
 .sidenav {
@@ -58,6 +57,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   margin-top: 15px;
   flex-grow: 0;
   transition: 1s;
+  overflow: hidden;
 }
 
 h1 {
@@ -178,6 +178,7 @@ em {
   bottom: 25px;
   left: 25px;
   width: 50px;
+  margin-top: -50px;
   height: 50px;
   border-radius: 50%;
   background-color: #0a8bfe;
@@ -202,6 +203,5 @@ em {
   }
   #navtoggle {
     display: block;
-
   }
 }

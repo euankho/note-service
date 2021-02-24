@@ -42,7 +42,7 @@ categories.forEach(async (category) => {
         res.render('note', { md: md, active: cat + '-' + filename, sidebar: sidebar });
       });
 
-      app.get(`/notes/${cat.toLowerCase()}/${filename}.pdf`, async (req, res) => {
+      app.get(`/pdf/${cat.toLowerCase()}/${filename}`, async (req, res) => {
         /*const pdf = await mdToPdf({ path: `./notes/${category}/${file}` }).catch(console.error);
         if (!pdf) return res.send('Something went wrong converting the file to pdf')
         res.contentType("application/pdf");

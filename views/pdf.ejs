@@ -9,16 +9,13 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script type="text/javascript" id="MathJax-script"
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="/prism.css" rel="stylesheet">
     <link rel="icon" type="image/png"
         href="https://media.discordapp.net/attachments/655020761010012170/790171846968213554/icon.png?width=1008&height=1008">
     <title>Protivity &bull; Note Service</title>
 </head>
 <style>
-    mjx-container[jax="CHTML"][display="true"] {
-        display: initial;
-    }
-
     * {
         overflow: visible !important;
         -webkit-text-size-adjust: 100%;
@@ -29,12 +26,13 @@
     html,
     body {
         background: #FFF;
-        font-size: 11px;
+        font-size: 20px;
         line-height: 1.3;
         color: #444;
         word-wrap: break-word;
         hyphens: auto;
         padding: 25px;
+        font-family: 'Lato', sans-serif;
     }
 
     hr {
@@ -181,27 +179,27 @@
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     h3 {
-        font-size: 1.17em;
+        font-size: 2em;
     }
 
     h4 {
-        font-size: 1.12em;
+        font-size: 1.5em;
     }
 
     h5 {
-        font-size: .83em;
+        font-size: .75em;
     }
 
     h6 {
-        font-size: .75em;
+        font-size: 0.5em;
         color: #555;
     }
 
@@ -293,48 +291,11 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="/index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
-    <script>
-
-        setTimeout(() => {
-            var doc = new jsPDF('p', 'pt', 'a4');
-            //A4 - 595x842 pts
-            //https://www.gnu.org/software/gv/manual/html_node/Paper-Keywords-and-paper-size-in-points.html
-
-
-            //Html source 
-            var source = document.getElementById('content').innerHTML;
-
-            var margins = {
-                top: 10,
-                bottom: 10,
-                left: 10,
-                width: 595
-            };
-
-            doc.fromHTML(
-                source, // HTML string or DOM elem ref.
-                margins.left,
-                margins.top, {
-                'width': margins.width,
-                'elementHandlers': specialElementHandlers
-            },
-
-                function (dispose) {
-                    // dispose: object with X, Y of the last line add to the PDF 
-                    //          this allow the insertion of new lines after html
-                    doc.save('Note.pdf');
-                }, margins);
-            // Save the PDF
-        }, 2000)
-        var specialElementHandlers = {
-            // element with id of "bypass" - jQuery style selector
-            '.hide': function (element, renderer) {
-                // true = "handled elsewhere, bypass text extraction"
-                return true;
-            }
-        };
-    </script>
 </body>
 
 </html>
+<style>
+    mjx-container[jax="CHTML"][display="true"] {
+        display: initial;
+    }
+</style>

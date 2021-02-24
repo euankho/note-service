@@ -186,3 +186,65 @@ $$P = \eta IA$$
 - $$\eta$$: efficiency or fraction of the energy arriving that is converted into internal energy
 - I: itensity of radiation (from the sun per square meter) (W/m<sup>2</sup>)
 - A: area of the solar panel (m<sup>2</sup>)
+
+## Thermal energy transfer
+- Any object with **a temperature above absolute zero** (0 K) possesses internal energy due to the motion of its atoms and molecules
+- Conduction
+  - **Atomic vibration** occurs in all solids, metal and non-metal alike. At all temperatures above 0 K, the ions in the solid have an internal energy. So they are vibrating about their average fixed position in the solid. The higher the temperature, the greater is the average energy, and therefore the higher their mean speed.
+  - Can take place in solid, liquid and gases (yet convection is more applicible to liquids and gases)
+  - The moving electrons collide with neighbouring molecules, transferring energy to them and so increasing their average kinetic energy
+- Convection
+  - the movement of groups of atoms or molecules within fluids (liquids and gases) that arises through variations in density
+  - cannot take place in solids
+  - **convection currents** are cycles of currents that occur when hot, dense air heated from a heat source rises due to lowered density through upthrust. A lower pressure is created in the system because of this, so denser and cold air sinks to replace the hot air.
+- Thermal radiation
+  - Thermal radiation is the transfer of energy by means of electromagnetic radiation
+  - Electromagnetic radiation is unique as a wave in that it does not need a medium in order to move (propagate)
+  - Atoms contain charged particles and when these charges are accelerated they emit photons. It is these photons that are the thermal radiation.
+  - Black surfaces 
+    - good at radiating 
+    - good at asorbing energy
+    - poor reflector of thermal energy
+- Black Body Radiation
+  -  A black body is one that absorbs all the wavelengths of electromagnetic radiation that fall on it
+
+### Emission spectrum from a blackbody
+$$I = \frac{P}{A}$$
+
+- **I:** Intensity 
+- **P:** Power
+- **A:** Area
+
+![](https://school.is-inside.me/Hsz1Wedc.png)
+
+
+### Albedo
+$$\abedo = \frac{radiation asorbed}{total incident radiation}$$
+
+### Black body
+- asorbs 100% of the incident radiation (at lowest temperature)
+- emits 100% of the wavelengths (if body is hotter than the enviroment)
+- the sun is a black body as it emits all the wavelenghts
+- Carbon black asorbs 99.9% radiation
+
+### Wien's displacement law
+- that a wavelength at which the intensity is a maximum λ<sub>max</sub> in meters is related to the absolute temperature of the black body T by
+$$\lambda_{max} = \frac{b}{T}$$
+- $$\lambda_{max}$$: maximum intensity at a certain temperature
+- *b*: wien's displacement constant, 2.9 x 10<sup>-3</sup> m K
+- **T:** temperature
+
+### Stefan blotzmann
+- the power radiated by the object, but this is the same as the energy radiated per second.
+$$P = \sigma AT^4$$
+- **P:** total power radiated
+- $$\sigma$$: stefan-blotzmann equation, 5.7 x 10<sup>8</sup> W m<sup>-2</sup> K<sup>-4</sup>
+- **A:** total surface area
+- **T:** temperature
+
+### Emissivity
+$$e = \frac{power emitted by a radiating object}{power emitted by a blackbody with the same dimensions at the same temperature}$$
+$$P = e\sigma AT^4$$
+
+### Solar Constant
+- **The solar constant** is the amount of solar radiation across all wavelengths that is incident in one second on one square metre at the mean distance of the Earth from the Sun on a plane perpendicular to the line joining the centre of the Sun and the center of the Earth.

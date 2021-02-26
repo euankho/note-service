@@ -219,7 +219,9 @@ $$I = \frac{P}{A}$$
 
 
 ### Albedo
-$$\abedo = \frac{radiation asorbed}{total incident radiation}$$
+- The proportion of the incident radiation that is reflected by a surface
+
+$$\alpha = \frac{\text{radiation asorbed}}{\text{total incident radiation}}$$
 
 ### Black body
 - asorbs 100% of the incident radiation (at lowest temperature)
@@ -229,13 +231,15 @@ $$\abedo = \frac{radiation asorbed}{total incident radiation}$$
 
 ### Wien's displacement law
 - that a wavelength at which the intensity is a maximum λ<sub>max</sub> in meters is related to the absolute temperature of the black body T by
+
 $$\lambda_{max} = \frac{b}{T}$$
 - $$\lambda_{max}$$: maximum intensity at a certain temperature
-- *b*: wien's displacement constant, 2.9 x 10<sup>-3</sup> m K
+- b: wien's displacement constant, 2.9 x 10<sup>-3</sup> m K
 - **T:** temperature
 
 ### Stefan blotzmann
 - the power radiated by the object, but this is the same as the energy radiated per second.
+
 $$P = \sigma AT^4$$
 - **P:** total power radiated
 - $$\sigma$$: stefan-blotzmann equation, 5.7 x 10<sup>8</sup> W m<sup>-2</sup> K<sup>-4</sup>
@@ -243,8 +247,20 @@ $$P = \sigma AT^4$$
 - **T:** temperature
 
 ### Emissivity
-$$e = \frac{power emitted by a radiating object}{power emitted by a blackbody with the same dimensions at the same temperature}$$
+$$e = \frac{\text{power emitted by a radiating object}}{\text{power emitted by a blackbody with the same dimensions at the same temperature}}$$
+
 $$P = e\sigma AT^4$$
 
 ### Solar Constant
 - **The solar constant** is the amount of solar radiation across all wavelengths that is incident in one second on one square metre at the mean distance of the Earth from the Sun on a plane perpendicular to the line joining the centre of the Sun and the center of the Earth.
+
+### Greenhouse effect
+- The sun's warmth is trapped in a planet's lower atmosphere due to the greater transparency of the atmosphere to visible radiation from the sun than to infrared radiation emitted from the planet's surface.
+- **Climate change:** a change in global or regional climate patterns
+- **Greenhouse gases:**
+  - Carbon dioxide
+  - Methane
+  - Nitrous oxide
+  - Water vapor
+  - ozone
+- **Enhanced greenhouse effect:** the additional warming produced by increased levels of gases that absorb infrared radiation

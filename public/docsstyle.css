@@ -196,6 +196,9 @@ em {
     padding: 15px;
     top: 0px;
   }
+  .container {
+    width: 100vw;
+  }
   .container.is-active {
     width: 0px;
     padding: 0px;
